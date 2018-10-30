@@ -8,4 +8,4 @@ def home(request):
 	context = { 
 	'timeanddate' : time
 	}
-	return render(request, 'home.html', context)
+	return render(request, 'poll/home.html', context)
