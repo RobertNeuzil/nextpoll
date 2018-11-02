@@ -9,3 +9,11 @@ def home(request):
 	'timeanddate' : time
 	}
 	return render(request, 'poll/home.html', context)
+
+
+def pollslist(request):
+	context = {
+
+	
+	}
+	return render(request, "poll/pollslist.html", context)
